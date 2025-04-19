@@ -4,6 +4,7 @@ import CounterTwo from './components/customeHook/CounterTwo'
 import DocTitleOne from './components/customeHook/DocTitleOne'
 import DocTitleTwo from './components/customeHook/DocTitleTwo'
 import UserForm from './components/customeHook/UserForm'
+import { Parent } from './components/Incorrect Optimizations/Parent'
 import ComponentA from './components/props/ComponentA'
 import Countermemo from './components/useCallback/Countermemo'
 import ParentComponent from './components/useCallback/ParentComponent'
@@ -21,7 +22,8 @@ function App() {
 
   return (
     <>
-    <UserForm />
+    <Parent />
+    {/* <UserForm /> */}
     {/* <CounterOne /> */}
     {/* <CounterTwo /> */}
     {/* <DocTitleOne /> */}
